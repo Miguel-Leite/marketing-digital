@@ -1,0 +1,22 @@
+:root {
+    --primary: rgb(102, 0, 185);
+    --secundary: rgb(97, 0, 207);
+    --light: rgb(212, 212, 212);
+    --text: rgb(51, 51, 51);
+}
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
