@@ -1,3 +1,4 @@
+import {IoMegaphoneSharp, IoStatsChart, IoEarth} from 'react-icons/io5'
 import {NavLink} from 'react-router-dom';
 import AboutUs from '../assets/about.jpg'
 import '../styles/page.scss';
@@ -102,9 +103,39 @@ export function Home() {
                         
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                             <div className='service-item'>
-                                <div className='icon'></div>
+                                <div className='icon icon-danger'>
+                                    <IoMegaphoneSharp />
+                                </div>
                                 <div className='content'>
                                     <h4> Marketing </h4>
+                                    <p>
+                                    Risus commodo viverra sebfd dho eiusmod commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div className='service-item'>
+                                <div className='icon icon-success'>
+                                    <IoStatsChart />
+                                </div>
+                                <div className='content'>
+                                    <h4> Gestão Financeira </h4>
+                                    <p>
+                                    Risus commodo viverra sebfd dho eiusmod commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div className='service-item'>
+                                <div className='icon icon-info'>
+                                    <IoEarth />
+                                </div>
+                                <div className='content'>
+                                    <h4> Desenvolvido de pagina web </h4>
                                     <p>
                                     Risus commodo viverra sebfd dho eiusmod commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
                                     </p>
