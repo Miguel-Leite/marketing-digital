@@ -5372,11 +5372,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Home": () => (/* binding */ Home)
 /* harmony export */ });
-/* harmony import */ var react_icons_io5__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/io5 */ "./node_modules/react-icons/io5/index.esm.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_icons_io5__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/io5 */ "./node_modules/react-icons/io5/index.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _assets_about_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/about.jpg */ "./resources/js/src/assets/about.jpg");
-/* harmony import */ var _styles_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/page.scss */ "./resources/js/src/styles/page.scss");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _assets_client_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/client.jpg */ "./resources/js/src/assets/client.jpg");
+/* harmony import */ var _styles_page_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/page.scss */ "./resources/js/src/styles/page.scss");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -5384,87 +5386,87 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Home() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("header", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("header", {
       className: "header_page",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         "class": "container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("nav", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("nav", {
           className: "nav_page",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
             to: "/",
             className: "nav_brand",
-            children: [" Marketing", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+            children: [" Marketing", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
               children: "Digital"
             }), " "]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ul", {
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
                 to: "/",
                 children: " Home "
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
                 to: "/",
                 children: " Sobre "
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
                 to: "/",
                 children: " Servicos "
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
                 to: "/",
                 children: " Contacto "
               })
             })]
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
           className: "content",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "col-lg-6 col-md-12 col-xs-12",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
               children: "Seja bem-vindo a plataforma Marketing Digital"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               children: "The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
               to: "/",
               className: "nav_brand",
-              children: [" Marketing", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              children: [" Marketing", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
                 children: "Digital"
               }), " "]
             })]
           })
         })]
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("main", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("main", {
       className: "box_header",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "container",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "row",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             className: "col-lg-6 col-sm-6 col-md-6 col-xs-12",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "box",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
                 children: "Planos Gratis"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
-                children: ["The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people...", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
+                children: ["The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people...", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
                   to: "/",
                   children: " ler mais. "
                 })]
               })]
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             className: "col-lg-6 col-sm-6 col-md-6 col-xs-12",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "box",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
                 children: "Planos Pagos"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
-                children: ["The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people...", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
+                children: ["The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people...", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
                   to: "/",
                   children: " ler mais. "
                 })]
@@ -5473,93 +5475,135 @@ function Home() {
           })]
         })
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "about",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "container",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "row",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             "class": "col-xs-5 col-sm-5 col-md-5 col-lg-5",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
               src: _assets_about_jpg__WEBPACK_IMPORTED_MODULE_0__["default"],
               "class": "img-responsive w-100 h-100",
               alt: "About Us"
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             "class": "col-xs-7 col-sm-7 col-md-7 col-lg-7",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
               className: "title",
               children: "Sobre a nossa plataforma Marketing Digital"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               children: "Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               children: "Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               children: "Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan."
             })]
           })]
         })
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "services",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
           className: "title",
           children: " Nossos servi\xE7os dispon\xEDveis "
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "row",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             "class": "col-xs-4 col-sm-4 col-md-4 col-lg-4",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "service-item",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "icon icon-danger",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_4__.IoMegaphoneSharp, {})
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoMegaphoneSharp, {})
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                 className: "content",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
                   children: " Marketing "
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
                   children: "Risus commodo viverra sebfd dho eiusmod commodo viverra sebfd dho eiusmod tempor maecenas accumsan."
                 })]
               })]
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             "class": "col-xs-4 col-sm-4 col-md-4 col-lg-4",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "service-item",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "icon icon-success",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_4__.IoStatsChart, {})
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoStatsChart, {})
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                 className: "content",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
                   children: " Gest\xE3o Financeira "
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
                   children: "Risus commodo viverra sebfd dho eiusmod commodo viverra sebfd dho eiusmod tempor maecenas accumsan."
                 })]
               })]
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             "class": "col-xs-4 col-sm-4 col-md-4 col-lg-4",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "service-item",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "icon icon-info",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_4__.IoEarth, {})
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoEarth, {})
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                 className: "content",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
                   children: " Desenvolvido de pagina web "
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
                   children: "Risus commodo viverra sebfd dho eiusmod commodo viverra sebfd dho eiusmod tempor maecenas accumsan."
                 })]
               })]
             })
           })]
         })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "client",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "container",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "row",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            "class": "col-xs-5 col-sm-5 col-md-5 col-lg-5",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+              src: _assets_client_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+              "class": "img-responsive w-100",
+              alt: "Client"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+            "class": "col-xs-7 col-sm-7 col-md-7 col-lg-7",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+              className: "title",
+              children: "Seja um clienta da Marketing Digital"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+              children: "Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "container mt-5",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "item",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoCheckmarkCircleOutline, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                  children: "ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "item",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoCheckmarkCircleOutline, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                  children: "ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "item",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoCheckmarkCircleOutline, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                  children: "ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus"
+                })]
+              })]
+            })]
+          })]
+        })
       })
     })]
   });
@@ -10656,7 +10700,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --primary: rgb(145, 60, 214);\n  --secundary: rgb(133, 25, 255);\n  --light: rgb(212, 212, 212);\n  --text: rgba(65, 65, 65, 0.863);\n  --success: rgb(0, 122, 75);\n  --danger: rgba(255, 63, 49, 0.938);\n  --white: #fefefe;\n}\n\n*::before,\n*::after,\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nul, li {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n}\n\np {\n  color: var(--text);\n}\n\n.title {\n  position: relative;\n  padding-bottom: 20px;\n}\n.title::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  background-color: var(--primary);\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n}\n.title::after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  background-color: var(--primary);\n  width: 100px;\n  height: 5px;\n  margin-left: 10px;\n  border-radius: 3px;\n}\n\n.icon-danger {\n  background-color: rgba(255, 50, 50, 0.288);\n  color: rgba(255, 50, 50, 0.76);\n}\n\n.icon-success {\n  background-color: rgba(50, 255, 170, 0.411);\n  color: rgba(24, 204, 129, 0.76);\n}\n\n.icon-info {\n  background-color: rgba(50, 146, 255, 0.253);\n  color: rgba(50, 146, 255, 0.76);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --primary: rgb(145, 60, 214);\n  --secundary: rgba(132, 25, 255, 0.548);\n  --light: rgb(212, 212, 212);\n  --text: rgba(65, 65, 65, 0.863);\n  --success: rgb(0, 122, 75);\n  --danger: rgba(255, 63, 49, 0.938);\n  --white: #fefefe;\n}\n\n*::before,\n*::after,\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nul, li {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n}\n\np {\n  color: var(--text);\n}\n\n.title {\n  position: relative;\n  padding-bottom: 20px;\n}\n.title::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  background-color: var(--primary);\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n}\n.title::after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  background-color: var(--primary);\n  width: 100px;\n  height: 5px;\n  margin-left: 10px;\n  border-radius: 3px;\n}\n\n.icon-danger {\n  background-color: rgba(255, 50, 50, 0.288);\n  color: rgba(255, 50, 50, 0.76);\n}\n\n.icon-success {\n  background-color: rgba(50, 255, 170, 0.411);\n  color: rgba(24, 204, 129, 0.76);\n}\n\n.icon-info {\n  background-color: rgba(50, 146, 255, 0.253);\n  color: rgba(50, 146, 255, 0.76);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10679,14 +10723,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _assets_hero_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/hero.jpg */ "./resources/js/src/assets/hero.jpg");
+/* harmony import */ var _assets_background_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/background.jpg */ "./resources/js/src/assets/background.jpg");
 // Imports
+
 
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_hero_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_background_jpg__WEBPACK_IMPORTED_MODULE_3__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header_page {\n  width: 100%;\n  height: 100vh;\n  background: linear-gradient(rgba(255, 255, 255, 0.842) 70%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n.header_page .nav_page {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 100px;\n  border-bottom: 1px solid rgba(102, 0, 185, 0.247);\n}\n.header_page .nav_page .nav_brand {\n  font-size: 32px;\n  font-weight: bold;\n  color: #333333;\n}\n.header_page .nav_page .nav_brand span {\n  color: var(--primary);\n}\n.header_page .nav_page > ul {\n  list-style: none;\n  display: flex;\n  align-items: center;\n  gap: 50px;\n}\n.header_page .nav_page > ul a {\n  color: var(--text);\n  position: relative;\n  padding-bottom: 48px;\n}\n.header_page .nav_page > ul a::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 0%;\n  height: 3px;\n  background-color: var(--success);\n  transition: width 0.3s;\n}\n.header_page .nav_page > ul a:hover::before {\n  width: 100%;\n}\n.header_page .content {\n  margin-top: 110px;\n  width: 100%;\n  height: auto;\n}\n.header_page .content h1 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.header_page .content p {\n  font-size: 16px;\n  margin-bottom: 30px;\n}\n.header_page .content a {\n  background-color: var(--success);\n  color: var(--white);\n  padding: 10px 30px;\n  transition: filter 0.3s;\n}\n.header_page .content a:hover {\n  filter: brightness(0.8);\n}\n\n.box_header {\n  margin-top: -4%;\n  margin-bottom: 10%;\n  width: 100%;\n  height: auto;\n}\n.box_header .box {\n  width: 100%;\n  height: 100%;\n  background-color: var(--white);\n  padding: 25px 20px;\n  border-radius: 10px;\n  box-shadow: 0px 6px 18px rgba(112, 112, 112, 0.288);\n}\n.box_header .box h4 {\n  margin-bottom: 20px;\n  font-weight: 700;\n  color: var(--success);\n  text-transform: uppercase;\n}\n\n.about {\n  width: 100%;\n  height: auto;\n  margin-bottom: 120px;\n}\n.about h1 {\n  font-weight: 700;\n  margin-bottom: 60px;\n}\n.about p {\n  text-indent: 20px;\n  text-justify: justify;\n}\n\n.services {\n  width: 100%;\n  height: auto;\n  margin-bottom: 110px;\n}\n.services h1 {\n  margin-bottom: 70px;\n}\n.services .service-item {\n  width: 100%;\n  height: 100%;\n  padding: 30px;\n  box-shadow: 0px 5px 18px #ccccccd3;\n  transition: box-shadow 0.3s;\n}\n.services .service-item:hover {\n  box-shadow: none;\n}\n.services .service-item h4 {\n  font-weight: 700;\n  margin-bottom: 10px;\n}\n.services .service-item .icon {\n  width: 45px;\n  height: 45px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px;\n  font-weight: bold;\n  font-size: 22px;\n  margin-top: -20px;\n  margin-bottom: 10px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header_page {\n  width: 100%;\n  height: 100vh;\n  background: linear-gradient(rgba(255, 255, 255, 0.842) 70%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n.header_page .nav_page {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 100px;\n  border-bottom: 1px solid rgba(102, 0, 185, 0.247);\n}\n.header_page .nav_page .nav_brand {\n  font-size: 32px;\n  font-weight: bold;\n  color: #333333;\n}\n.header_page .nav_page .nav_brand span {\n  color: var(--primary);\n}\n.header_page .nav_page > ul {\n  list-style: none;\n  display: flex;\n  align-items: center;\n  gap: 50px;\n}\n.header_page .nav_page > ul a {\n  color: var(--text);\n  position: relative;\n  padding-bottom: 48px;\n}\n.header_page .nav_page > ul a::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 0%;\n  height: 3px;\n  background-color: var(--success);\n  transition: width 0.3s;\n}\n.header_page .nav_page > ul a:hover::before {\n  width: 100%;\n}\n.header_page .content {\n  margin-top: 110px;\n  width: 100%;\n  height: auto;\n}\n.header_page .content h1 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.header_page .content p {\n  font-size: 16px;\n  margin-bottom: 30px;\n}\n.header_page .content a {\n  background-color: var(--success);\n  color: var(--white);\n  padding: 10px 30px;\n  transition: filter 0.3s;\n}\n.header_page .content a:hover {\n  filter: brightness(0.8);\n}\n\n.box_header {\n  margin-top: -4%;\n  margin-bottom: 10%;\n  width: 100%;\n  height: auto;\n}\n.box_header .box {\n  width: 100%;\n  height: 100%;\n  background-color: var(--white);\n  padding: 25px 20px;\n  border-radius: 10px;\n  box-shadow: 0px 6px 18px rgba(112, 112, 112, 0.288);\n}\n.box_header .box h4 {\n  margin-bottom: 20px;\n  font-weight: 700;\n  color: var(--success);\n  text-transform: uppercase;\n}\n\n.about {\n  width: 100%;\n  height: auto;\n  margin-bottom: 120px;\n}\n.about h1 {\n  font-weight: 700;\n  margin-bottom: 60px;\n}\n.about p {\n  text-indent: 20px;\n  text-justify: justify;\n}\n\n.services {\n  width: 100%;\n  height: auto;\n  margin-bottom: 110px;\n}\n.services h1 {\n  margin-bottom: 70px;\n  font-weight: 700;\n}\n.services .service-item {\n  width: 100%;\n  height: 100%;\n  padding: 30px;\n  box-shadow: 0px 5px 18px #ccccccd3;\n  transition: box-shadow 0.3s;\n}\n.services .service-item:hover {\n  box-shadow: none;\n}\n.services .service-item h4 {\n  font-weight: 700;\n  margin-bottom: 10px;\n}\n.services .service-item .icon {\n  width: 45px;\n  height: 45px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px;\n  font-weight: bold;\n  font-size: 22px;\n  margin-top: -20px;\n  margin-bottom: 10px;\n}\n\n.client {\n  width: 100%;\n  height: auto;\n  padding: 30px 0px;\n  background: linear-gradient(var(--white) 70%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-attachment: fixed;\n  background-repeat: no-repeat;\n  background-size: cover;\n  margin-bottom: 120px;\n}\n.client h2 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.client img {\n  border: 10px solid var(--secundary);\n}\n.client .item {\n  display: flex;\n  gap: 10px;\n  padding: 10px 0px;\n}\n.client .item svg {\n  font-size: 42px;\n  color: var(--primary);\n  font-weight: 800;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10825,6 +10872,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/about.jpg?ef116fc6371536357191d513f3beab0b");
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/background.jpg":
+/*!************************************************!*\
+  !*** ./resources/js/src/assets/background.jpg ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/background.jpg?4f0fa77643f7673b84d71cb130699527");
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/client.jpg":
+/*!********************************************!*\
+  !*** ./resources/js/src/assets/client.jpg ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/client.jpg?e44a7eef4353f2e0feac51175e61a28d");
 
 /***/ }),
 
