@@ -1,6 +1,6 @@
 ## MartingDigital
 
-É um projecto feito para teste dada pela empresa Nova Conexão Angola, com objectivos de teste os meus conhecimentos ou experiência como desenvolvedor, na seguinte linguagem: PHP(Laravel), HTML, CSS, JavaScrit, React js.
+É um projecto feito para teste dada pela empresa Nova Conexão Angola, com objectivos de testar os meus conhecimentos ou experiência como desenvolvedor, na seguinte linguagem: PHP(Laravel), HTML, CSS, JavaScrit, React js.
 
 #### comando para instalar as dependencia do PHP
 
