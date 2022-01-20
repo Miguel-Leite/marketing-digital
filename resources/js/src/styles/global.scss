@@ -1,0 +1,29 @@
+:root {
+    --primary: rgb(145, 60, 214);
+    --secundary: rgb(133, 25, 255);
+    --light: rgb(212, 212, 212);
+    --text: rgba(65, 65, 65, 0.863);
+    --success: rgb(0, 128, 79);
+    --danger: rgba(255, 63, 49, 0.938);
+    --white: #fefefe;
+}
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: var(--text);
+}

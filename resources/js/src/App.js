@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Home } from './pages/Home'
 import { Dashboard } from './pages/admin/Dashboard';
 
-import './App.scss'
+import './styles/global.scss'
 
 function App() {
     return (
@@ -23,7 +23,4 @@ export default App;
 
 if (document.getElementById('root')) {
     ReactDOM.render(<App />, document.getElementById('root'));
-} else {
-    console.log("oi")
-
 }
