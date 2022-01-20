@@ -3,7 +3,7 @@
     --secundary: rgb(133, 25, 255);
     --light: rgb(212, 212, 212);
     --text: rgba(65, 65, 65, 0.863);
-    --success: rgb(0, 128, 79);
+    --success: rgb(0, 122, 75);
     --danger: rgba(255, 63, 49, 0.938);
     --white: #fefefe;
 }
@@ -26,4 +26,30 @@ a {
 
 p {
     color: var(--text);
+}
+
+.title {
+    position: relative;
+    padding-bottom: 20px;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: var(--primary);
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: var(--primary);
+        width: 100px;
+        height: 5px;
+        margin-left: 10px;
+        border-radius: 3px;
+    }
 }
