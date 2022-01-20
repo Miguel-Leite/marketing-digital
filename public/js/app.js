@@ -5390,7 +5390,7 @@ function Home() {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("header", {
       className: "header_page",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        "class": "container",
+        className: "container",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("nav", {
           className: "nav_page",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
@@ -5482,14 +5482,14 @@ function Home() {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "row",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            "class": "col-xs-5 col-sm-5 col-md-5 col-lg-5",
+            className: "col-xs-5 col-sm-5 col-md-5 col-lg-5",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
               src: _assets_about_jpg__WEBPACK_IMPORTED_MODULE_0__["default"],
-              "class": "img-responsive w-100 h-100",
+              className: "img-responsive w-100 h-100",
               alt: "About Us"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            "class": "col-xs-7 col-sm-7 col-md-7 col-lg-7",
+            className: "col-xs-7 col-sm-7 col-md-7 col-lg-7",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
               className: "title",
               children: "Sobre a nossa plataforma Marketing Digital"
@@ -5513,7 +5513,7 @@ function Home() {
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "row",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            "class": "col-xs-4 col-sm-4 col-md-4 col-lg-4",
+            className: "col-xs-4 col-sm-4 col-md-4 col-lg-4",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "service-item",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -5529,7 +5529,7 @@ function Home() {
               })]
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            "class": "col-xs-4 col-sm-4 col-md-4 col-lg-4",
+            className: "col-xs-4 col-sm-4 col-md-4 col-lg-4",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "service-item",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -5545,7 +5545,7 @@ function Home() {
               })]
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            "class": "col-xs-4 col-sm-4 col-md-4 col-lg-4",
+            className: "col-xs-4 col-sm-4 col-md-4 col-lg-4",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "service-item",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -5570,14 +5570,14 @@ function Home() {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "row",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            "class": "col-xs-5 col-sm-5 col-md-5 col-lg-5",
+            className: "col-xs-5 col-sm-5 col-md-5 col-lg-5",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
               src: _assets_client_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
-              "class": "img-responsive w-100",
+              className: "img-responsive w-100",
               alt: "Client"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            "class": "col-xs-7 col-sm-7 col-md-7 col-lg-7",
+            className: "col-xs-7 col-sm-7 col-md-7 col-lg-7",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
               className: "title",
               children: "Seja um clienta da Marketing Digital"
@@ -5604,6 +5604,280 @@ function Home() {
             })]
           })]
         })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "contact",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "container",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+          className: "title",
+          children: "Entra em contacto"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+          children: "ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "info",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+            className: "row justify-content-center align-center",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+              className: "col-xs-12 col-sm-6 col-md-6 col-lg-4",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "info-item",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoLogoWhatsapp, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                  children: " +244 941 398 739 "
+                })]
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+              className: "col-xs-12 col-sm-6 col-md-6 col-lg-4",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "info-item",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoMailSharp, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                  children: " miguelleite200leite.com "
+                })]
+              })
+            })]
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "row justify-content-center",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "col-xs-12 col-sm-10 col-md-12 col-lg-10",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("form", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "form-group row",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                  className: "col-sm-6",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+                    htmlFor: "name",
+                    children: "Nome: "
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("input", {
+                    type: "text",
+                    className: "form-control",
+                    name: "name",
+                    id: "name",
+                    placeholder: "Informe o seu nome completo"
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                  className: "col-sm-6",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+                    htmlFor: "email",
+                    children: "email: "
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("input", {
+                    type: "email",
+                    className: "form-control",
+                    name: "email",
+                    id: "email",
+                    placeholder: "Informe o seu email"
+                  })]
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+                  htmlFor: "subject",
+                  children: "Assunto: "
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("input", {
+                  type: "text",
+                  className: "form-control",
+                  name: "subject",
+                  id: "subject",
+                  placeholder: "Informe o assunto"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "form-group",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+                  htmlFor: "message",
+                  children: "Mensagem: "
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("textarea", {
+                  name: "message",
+                  id: "message",
+                  className: "form-control",
+                  placeholder: "Escreve aqui a sua mensagem...",
+                  rows: "5",
+                  required: "required"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "form-group row mt-5",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+                  type: "submit",
+                  className: "btn btn-send col-12",
+                  children: "Enviar"
+                })
+              })]
+            })
+          })
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("footer", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "footer-wrappper footer-bg",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "footer-area",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "container",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "row justify-content-between",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "col-xl-4 col-lg-5 col-md-4 col-sm-6",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                  className: "single-footer-caption mb-50",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                    className: "single-footer-caption mb-30",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                      className: "footer-logo mb-25",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                        to: "/",
+                        children: ["Marketing", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+                          children: "Digital"
+                        })]
+                      })
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                      className: "footer-tittle",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                        className: "footer-pera",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                          children: "The automated process starts as soon as your clothes go into the machine."
+                        })
+                      })
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                      className: "footer-social",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                        to: "/",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoLogoGoogle, {})
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                        to: "/",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoLogoLinkedin, {})
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                        to: "/",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoLogoPinterest, {})
+                      })]
+                    })]
+                  })
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "col-xl-2 col-lg-3 col-md-4 col-sm-5",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                  className: "single-footer-caption mb-50",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                    className: "footer-tittle",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
+                      children: "Solu\xE7\xF5es"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Design & creatives"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Telecomunica\xE7\xF5es"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Gest\xE3o Financeira"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Desenvolvimento Web"
+                        })
+                      })]
+                    })]
+                  })
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "col-xl-2 col-lg-4 col-md-4 col-sm-6",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                  className: "single-footer-caption mb-50",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                    className: "footer-tittle",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
+                      children: "Suporte"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Design & creatives"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Telecomunica\xE7\xF5es"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Gest\xE3o Financeira"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Desenvolvimento Web"
+                        })
+                      })]
+                    })]
+                  })
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "col-xl-2 col-lg-3 col-md-4 col-sm-6",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                  className: "single-footer-caption mb-50",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                    className: "footer-tittle",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
+                      children: "Empresas"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Design & creatives"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Telecomunica\xE7\xF5es"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Gest\xE3o Financeira"
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                          to: "/",
+                          children: "Desenvolvimento Web"
+                        })
+                      })]
+                    })]
+                  })
+                })
+              })]
+            })
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "footer-bottom-area",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "container",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+              className: "footer-border",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "row d-flex align-items-center",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                  className: "col-xl-12 ",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                    className: "footer-copy-right text-center",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
+                      children: ["Copyright \xA9 All rights reserved | Developer  by ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                        to: "/",
+                        target: "_blank",
+                        children: "Marketing Digital"
+                      })]
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })]
       })
     })]
   });
@@ -10700,7 +10974,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --primary: rgb(145, 60, 214);\n  --secundary: rgba(132, 25, 255, 0.548);\n  --light: rgb(212, 212, 212);\n  --text: rgba(65, 65, 65, 0.863);\n  --success: rgb(0, 122, 75);\n  --danger: rgba(255, 63, 49, 0.938);\n  --white: #fefefe;\n}\n\n*::before,\n*::after,\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nul, li {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n}\n\np {\n  color: var(--text);\n}\n\n.title {\n  position: relative;\n  padding-bottom: 20px;\n}\n.title::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  background-color: var(--primary);\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n}\n.title::after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  background-color: var(--primary);\n  width: 100px;\n  height: 5px;\n  margin-left: 10px;\n  border-radius: 3px;\n}\n\n.icon-danger {\n  background-color: rgba(255, 50, 50, 0.288);\n  color: rgba(255, 50, 50, 0.76);\n}\n\n.icon-success {\n  background-color: rgba(50, 255, 170, 0.411);\n  color: rgba(24, 204, 129, 0.76);\n}\n\n.icon-info {\n  background-color: rgba(50, 146, 255, 0.253);\n  color: rgba(50, 146, 255, 0.76);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --primary: rgb(145, 60, 214);\n  --secundary: rgba(132, 25, 255, 0.548);\n  --light: rgba(212, 212, 212, 0.575);\n  --text: rgba(65, 65, 65, 0.863);\n  --success: rgb(0, 122, 75);\n  --danger: rgba(255, 63, 49, 0.938);\n  --white: #fefefe;\n}\n\n*::before,\n*::after,\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nul, li {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n}\n\np {\n  color: var(--text);\n}\n\n.title {\n  position: relative;\n  padding-bottom: 20px;\n}\n.title::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  background-color: var(--primary);\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n}\n.title::after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  background-color: var(--primary);\n  width: 100px;\n  height: 5px;\n  margin-left: 10px;\n  border-radius: 3px;\n}\n\n.icon-danger {\n  background-color: rgba(255, 50, 50, 0.288);\n  color: rgba(255, 50, 50, 0.76);\n}\n\n.icon-success {\n  background-color: rgba(50, 255, 170, 0.411);\n  color: rgba(24, 204, 129, 0.76);\n}\n\n.icon-info {\n  background-color: rgba(50, 146, 255, 0.253);\n  color: rgba(50, 146, 255, 0.76);\n}\n\n.btn-send {\n  background-color: var(--primary);\n  color: var(--white);\n  transition: filter 0.3s;\n}\n.btn-send:hover {\n  color: var(--light);\n  filter: brightness(0.8);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10733,7 +11007,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_hero_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_background_jpg__WEBPACK_IMPORTED_MODULE_3__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header_page {\n  width: 100%;\n  height: 100vh;\n  background: linear-gradient(rgba(255, 255, 255, 0.842) 70%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n.header_page .nav_page {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 100px;\n  border-bottom: 1px solid rgba(102, 0, 185, 0.247);\n}\n.header_page .nav_page .nav_brand {\n  font-size: 32px;\n  font-weight: bold;\n  color: #333333;\n}\n.header_page .nav_page .nav_brand span {\n  color: var(--primary);\n}\n.header_page .nav_page > ul {\n  list-style: none;\n  display: flex;\n  align-items: center;\n  gap: 50px;\n}\n.header_page .nav_page > ul a {\n  color: var(--text);\n  position: relative;\n  padding-bottom: 48px;\n}\n.header_page .nav_page > ul a::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 0%;\n  height: 3px;\n  background-color: var(--success);\n  transition: width 0.3s;\n}\n.header_page .nav_page > ul a:hover::before {\n  width: 100%;\n}\n.header_page .content {\n  margin-top: 110px;\n  width: 100%;\n  height: auto;\n}\n.header_page .content h1 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.header_page .content p {\n  font-size: 16px;\n  margin-bottom: 30px;\n}\n.header_page .content a {\n  background-color: var(--success);\n  color: var(--white);\n  padding: 10px 30px;\n  transition: filter 0.3s;\n}\n.header_page .content a:hover {\n  filter: brightness(0.8);\n}\n\n.box_header {\n  margin-top: -4%;\n  margin-bottom: 10%;\n  width: 100%;\n  height: auto;\n}\n.box_header .box {\n  width: 100%;\n  height: 100%;\n  background-color: var(--white);\n  padding: 25px 20px;\n  border-radius: 10px;\n  box-shadow: 0px 6px 18px rgba(112, 112, 112, 0.288);\n}\n.box_header .box h4 {\n  margin-bottom: 20px;\n  font-weight: 700;\n  color: var(--success);\n  text-transform: uppercase;\n}\n\n.about {\n  width: 100%;\n  height: auto;\n  margin-bottom: 120px;\n}\n.about h1 {\n  font-weight: 700;\n  margin-bottom: 60px;\n}\n.about p {\n  text-indent: 20px;\n  text-justify: justify;\n}\n\n.services {\n  width: 100%;\n  height: auto;\n  margin-bottom: 110px;\n}\n.services h1 {\n  margin-bottom: 70px;\n  font-weight: 700;\n}\n.services .service-item {\n  width: 100%;\n  height: 100%;\n  padding: 30px;\n  box-shadow: 0px 5px 18px #ccccccd3;\n  transition: box-shadow 0.3s;\n}\n.services .service-item:hover {\n  box-shadow: none;\n}\n.services .service-item h4 {\n  font-weight: 700;\n  margin-bottom: 10px;\n}\n.services .service-item .icon {\n  width: 45px;\n  height: 45px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px;\n  font-weight: bold;\n  font-size: 22px;\n  margin-top: -20px;\n  margin-bottom: 10px;\n}\n\n.client {\n  width: 100%;\n  height: auto;\n  padding: 30px 0px;\n  background: linear-gradient(var(--white) 70%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-attachment: fixed;\n  background-repeat: no-repeat;\n  background-size: cover;\n  margin-bottom: 120px;\n}\n.client h2 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.client img {\n  border: 10px solid var(--secundary);\n}\n.client .item {\n  display: flex;\n  gap: 10px;\n  padding: 10px 0px;\n}\n.client .item svg {\n  font-size: 42px;\n  color: var(--primary);\n  font-weight: 800;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header_page {\n  width: 100%;\n  height: 100vh;\n  background: linear-gradient(rgba(255, 255, 255, 0.842) 70%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n.header_page .nav_page {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 100px;\n  border-bottom: 1px solid rgba(102, 0, 185, 0.247);\n}\n.header_page .nav_page .nav_brand {\n  font-size: 32px;\n  font-weight: bold;\n  color: #333333;\n}\n.header_page .nav_page .nav_brand span {\n  color: var(--primary);\n}\n.header_page .nav_page > ul {\n  list-style: none;\n  display: flex;\n  align-items: center;\n  gap: 50px;\n}\n.header_page .nav_page > ul a {\n  color: var(--text);\n  position: relative;\n  padding-bottom: 48px;\n}\n.header_page .nav_page > ul a::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 0%;\n  height: 3px;\n  background-color: var(--success);\n  transition: width 0.3s;\n}\n.header_page .nav_page > ul a:hover::before {\n  width: 100%;\n}\n.header_page .content {\n  margin-top: 110px;\n  width: 100%;\n  height: auto;\n}\n.header_page .content h1 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.header_page .content p {\n  font-size: 16px;\n  margin-bottom: 30px;\n}\n.header_page .content a {\n  background-color: var(--success);\n  color: var(--white);\n  padding: 10px 30px;\n  transition: filter 0.3s;\n}\n.header_page .content a:hover {\n  filter: brightness(0.8);\n}\n\n.box_header {\n  margin-top: -4%;\n  margin-bottom: 10%;\n  width: 100%;\n  height: auto;\n}\n.box_header .box {\n  width: 100%;\n  height: 100%;\n  background-color: var(--white);\n  padding: 25px 20px;\n  border-radius: 10px;\n  box-shadow: 0px 6px 18px rgba(112, 112, 112, 0.288);\n}\n.box_header .box h4 {\n  margin-bottom: 20px;\n  font-weight: 700;\n  color: var(--success);\n  text-transform: uppercase;\n}\n\n.about {\n  width: 100%;\n  height: auto;\n  margin-bottom: 120px;\n}\n.about h1 {\n  font-weight: 700;\n  margin-bottom: 60px;\n}\n.about p {\n  text-indent: 20px;\n  text-justify: justify;\n}\n\n.services {\n  width: 100%;\n  height: auto;\n  margin-bottom: 120px;\n}\n.services h1 {\n  margin-bottom: 70px;\n  font-weight: 700;\n}\n.services .service-item {\n  width: 100%;\n  height: 100%;\n  padding: 30px;\n  box-shadow: 0px 5px 18px #ccccccd3;\n  transition: box-shadow 0.3s;\n  border-radius: 10px;\n}\n.services .service-item:hover {\n  box-shadow: none;\n}\n.services .service-item h4 {\n  font-weight: 700;\n  margin-bottom: 10px;\n}\n.services .service-item .icon {\n  width: 45px;\n  height: 45px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px;\n  font-weight: bold;\n  font-size: 22px;\n  margin-top: -20px;\n  margin-bottom: 10px;\n}\n\n.client {\n  width: 100%;\n  height: auto;\n  padding: 30px 0px;\n  background: linear-gradient(var(--white) 70%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-attachment: fixed;\n  background-repeat: no-repeat;\n  background-size: cover;\n  margin-bottom: 120px;\n}\n.client h2 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.client img {\n  border: 10px solid var(--secundary);\n}\n.client .item {\n  display: flex;\n  gap: 10px;\n  padding: 10px 0px;\n}\n.client .item svg {\n  font-size: 42px;\n  color: var(--primary);\n  font-weight: 800;\n}\n\n.contact {\n  width: 100%;\n  height: auto;\n  margin-bottom: 120px;\n}\n.contact h1 {\n  font-weight: 700;\n}\n.contact p {\n  margin: 20px 0px;\n  color: rgba(51, 51, 51, 0.658);\n}\n.contact .info {\n  background-color: var(--light);\n  padding: 30px 0px;\n  width: 100%;\n  height: auto;\n}\n.contact .info .info-item {\n  display: flex;\n  align-items: center;\n}\n.contact .info .info-item svg {\n  margin-right: 20px;\n  color: var(--secundary);\n  font-size: 42px;\n}\n.contact form {\n  margin-top: 40px;\n  width: 100%;\n}\n.contact form .form-group {\n  margin-top: 10px;\n  margin-bottom: 20px;\n}\n.contact form .form-group label {\n  margin-bottom: 6px;\n}\n.contact form .form-group input, .contact form .form-group textarea {\n  padding: 15px;\n  border: 1px solid var(--secundary);\n}\n.contact form .form-group input:focus, .contact form .form-group textarea:focus {\n  box-shadow: none;\n}\n\n.footer-wrappper {\n  padding-top: 60px;\n}\n.footer-wrappper .footer-logo {\n  font-size: 32px;\n}\n.footer-wrappper .footer-logo a {\n  color: var(--white);\n  font-weight: 700;\n}\n.footer-wrappper .footer-logo a span {\n  color: #00c58a;\n}\n\n.footer-area .footer-pera p {\n  color: #fff;\n  padding-right: 52px;\n  font-size: 16px;\n  margin-bottom: 50px;\n  line-height: 1.8;\n}\n.footer-area .footer-pera.footer-pera2 p {\n  padding: 0;\n}\n.footer-area .footer-tittle h4 {\n  color: #fff;\n  font-size: 22px;\n  margin-bottom: 29px;\n  font-weight: 600;\n}\n.footer-area .footer-tittle ul li {\n  margin-bottom: 15px;\n}\n.footer-area .footer-tittle ul li a {\n  color: #fff;\n  font-weight: 400;\n  font-size: 16px;\n  -webkit-text-decoration: underline transparent;\n          text-decoration: underline transparent;\n  transition: all 2s ease-out 0s;\n}\n.footer-area .footer-tittle ul li a:hover {\n  color: #fff;\n  text-decoration: underline;\n}\n.footer-area .footer-tittle p {\n  color: #fff;\n}\n.footer-area .footer-form {\n  margin-top: 40px;\n}\n.footer-area .footer-form form {\n  position: relative;\n}\n.footer-area .footer-form form input {\n  width: 100%;\n  height: 43px;\n  padding: 10px 20px;\n  border: 1px solid #fff;\n  border-radius: 30px;\n}\n.footer-area .footer-form form .form-icon button {\n  position: absolute;\n  top: 0;\n  right: 0;\n  background: none;\n  border: 0;\n  cursor: pointer;\n  padding: 13px 22px;\n  line-height: 1;\n  border-radius: 0 3px 3px 0;\n}\n.footer-area .info.error {\n  color: #C86FFF;\n}\n\n.footer-bottom-area .footer-border {\n  padding: 33px 0px 20px;\n}\n.footer-bottom-area .footer-copy-right p {\n  color: #fff;\n  font-weight: 400;\n  font-size: 18px;\n  line-height: 2;\n  margin-bottom: 12px;\n}\n.footer-bottom-area .footer-copy-right p svg {\n  color: #C86FFF;\n}\n\n.footer-social a {\n  background: rgba(128, 136, 255, 0.226);\n  color: var(--white);\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  font-size: 14px;\n  line-height: 40px;\n  display: inline-block;\n  text-align: center;\n  margin-right: 8px;\n}\n.footer-social a:hover {\n  color: var(--white);\n  background: var(--secundary);\n}\n.footer-social a svg {\n  display: inline-block;\n}\n\n.footer-bg {\n  background: var(--primary);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

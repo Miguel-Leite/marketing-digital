@@ -1,7 +1,7 @@
 :root {
     --primary: rgb(145, 60, 214);
     --secundary: rgba(132, 25, 255, 0.548);
-    --light: rgb(212, 212, 212);
+    --light: rgba(212, 212, 212, 0.575);
     --text: rgba(65, 65, 65, 0.863);
     --success: rgb(0, 122, 75);
     --danger: rgba(255, 63, 49, 0.938);
@@ -67,4 +67,14 @@ p {
 .icon-info {
     background-color: rgba(50, 146, 255, 0.253);
     color: rgba(50, 146, 255, 0.76);
+}
+
+.btn-send {
+    background-color: var(--primary);
+    color: var(--white);
+    transition: filter .3s;
+    &:hover {
+        color: var(--light);
+        filter: brightness(.8);
+    }
 }
