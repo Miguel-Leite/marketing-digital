@@ -31,7 +31,7 @@
 <br/>
 
 <hr />
-<img src="Tela-4.png" width="600"/>
+<img src="app-marketing-digital.png" width="600"/>
 
 ### FUNCIONALIDADES DA APLICAÇÃO
 <hr />
