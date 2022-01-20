@@ -25,12 +25,6 @@
 
 ### VISUALIZAÇÃO DA APLICAÇÃO
 <hr />
-<p>Pagina inicial da aplicação: </p>
-<img src="Tela-1.png" width="600"/>
-
-<br/>
-
-<hr />
 <img src="app-marketing-digital.png" width="600"/>
 
 ### FUNCIONALIDADES DA APLICAÇÃO
