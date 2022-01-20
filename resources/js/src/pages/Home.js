@@ -1,6 +1,6 @@
 import {NavLink} from 'react-router-dom';
-
-import '../styles/header.scss';
+import AboutUs from '../assets/about.jpg'
+import '../styles/page.scss';
 
 export function Home() {
     return (
@@ -60,6 +60,61 @@ export function Home() {
                     </div>
                 </div>
             </main>
+
+            <div className="about">
+                <div className="container">
+                    <div className="row">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <img src={AboutUs} class="img-responsive w-100 h-100" alt="About Us" />
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                            <h1 className='title'>Sobre a nossa plataforma Marketing Digital</h1>
+
+                            <p>
+                            Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
+                            Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
+                            Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
+                            eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
+                            </p>
+
+                            <p>
+                            Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
+                            Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
+                            Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
+                            eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
+                            </p>
+
+                            <p>
+                            Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
+                            Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
+                            Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
+                            eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='services'>
+                <div className="container">
+                    <h1 className='title'> Nossos serviços disponíveis </h1>
+                    <div className="row">
+                        
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div className='service-item'>
+                                <div className='icon'></div>
+                                <div className='content'>
+                                    <h4> Marketing </h4>
+                                    <p>
+                                    Risus commodo viverra sebfd dho eiusmod commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
