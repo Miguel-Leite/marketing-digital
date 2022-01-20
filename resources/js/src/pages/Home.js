@@ -96,21 +96,21 @@ export function Home() {
                         <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7">
                             <h1 className='title' data-aos="fade-up">Sobre a nossa plataforma Marketing Digital</h1>
 
-                            <p data-aos="fade-in">
+                            <p data-aos="zoom-in">
                             Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
                             Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
                             Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
                             eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
                             </p>
 
-                            <p data-aos="fade-in">
+                            <p data-aos="zoom-in">
                             Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
                             Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
                             Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
                             eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
                             </p>
 
-                            <p data-aos="fade-in">
+                            <p data-aos="zoom-in">
                             Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
                             Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
                             Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
