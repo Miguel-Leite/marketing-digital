@@ -24,6 +24,7 @@
         "sass-loader": "^11.0.1"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "node-sass": "^7.0.1",
         "react-icons": "^4.3.1",
         "react-router-dom": "5"

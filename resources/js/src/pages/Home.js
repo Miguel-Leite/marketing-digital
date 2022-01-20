@@ -1,3 +1,9 @@
+import { useEffect } from 'react';
+
+import AOS from 'aos'
+
+import 'aos/dist/aos.css'
+
 import {
     IoMegaphoneSharp, 
     IoStatsChart, 
@@ -14,14 +20,20 @@ import {
 import {NavLink} from 'react-router-dom';
 import AboutUs from '../assets/about.jpg'
 import Client from '../assets/client.jpg'
+
 import '../styles/page.scss';
 
 export function Home() {
+   
+    useEffect(()=>{
+        AOS.init({ duration: 2000 })
+    },[])
+
     return (
         <div>
             <header className='header_page'>
                 <div className="container">    
-                    <nav className="nav_page">
+                    <nav className="nav_page" data-aos="zoom-in">
                         <NavLink to="/" className="nav_brand"> Marketing<span>Digital</span> </NavLink>
                         <ul>
                             <li><NavLink to="/"> Home </NavLink></li>
@@ -33,16 +45,16 @@ export function Home() {
 
                     <div className="content">
                         <div className="col-lg-6 col-md-12 col-xs-12">
-                            <h1>
+                            <h1 data-aos="fade-right">
                                 Seja bem-vindo a plataforma 
                                 Marketing Digital
                             </h1>
-                            <p>
+                            <p data-aos="fade-right">
                                 The automated process all your website tasks. 
                                 Discover tools and techniques to engage effectively 
                                 with vulnerable children and young people.
                             </p>
-                            <NavLink to="/" className="nav_brand"> Marketing<span>Digital</span> </NavLink>
+                            <NavLink to="/" className="nav_brand" data-aos="fade-right"> Marketing<span>Digital</span> </NavLink>
                         </div>
                     </div>
                 </div>
@@ -51,7 +63,7 @@ export function Home() {
             <main className="box_header">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+                        <div className="col-lg-6 col-sm-6 col-md-6 col-xs-12" data-aos="fade-right">
                             <div className="box">
                                 <h4>Planos Gratis</h4>
                                 <p>
@@ -61,7 +73,7 @@ export function Home() {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+                        <div className="col-lg-6 col-sm-6 col-md-6 col-xs-12" data-aos="fade-left">
                             <div className="box">
                                 <h4>Planos Pagos</h4>
                                 <p>
@@ -79,26 +91,26 @@ export function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                            <img src={AboutUs} className="img-responsive w-100 h-100" alt="About Us" />
+                            <img src={AboutUs} className="img-responsive w-100 h-100" data-aos="fade-up" alt="About Us" />
                         </div>
                         <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7">
-                            <h1 className='title'>Sobre a nossa plataforma Marketing Digital</h1>
+                            <h1 className='title' data-aos="fade-up">Sobre a nossa plataforma Marketing Digital</h1>
 
-                            <p>
+                            <p data-aos="fade-in">
                             Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
                             Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
                             Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
                             eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
                             </p>
 
-                            <p>
+                            <p data-aos="fade-in">
                             Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
                             Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
                             Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
                             eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.
                             </p>
 
-                            <p>
+                            <p data-aos="fade-in">
                             Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
                             Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
                             Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho 
@@ -111,10 +123,10 @@ export function Home() {
 
             <div className='services'>
                 <div className="container">
-                    <h1 className='title'> Nossos serviços disponíveis </h1>
+                    <h1 className='title' data-aos="fade-up"> Nossos serviços disponíveis </h1>
                     <div className="row">
                         
-                        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" data-aos="fade-right">
                             <div className='service-item'>
                                 <div className='icon icon-danger'>
                                     <IoMegaphoneSharp />
@@ -128,7 +140,7 @@ export function Home() {
                             </div>    
                         </div>
 
-                        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" data-aos="fade-up">
                             <div className='service-item'>
                                 <div className='icon icon-success'>
                                     <IoStatsChart />
@@ -142,7 +154,7 @@ export function Home() {
                             </div>    
                         </div>
 
-                        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" data-aos="fade-left">
                             <div className='service-item'>
                                 <div className='icon icon-info'>
                                     <IoEarth />
@@ -163,10 +175,10 @@ export function Home() {
             <div className='client'>
                 <div className='container'>
                     <div className='row'>
-                    <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                            <img src={Client} className="img-responsive w-100" alt="Client" />
+                        <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <img src={Client} className="img-responsive w-100" data-aos="fade-right" alt="Client" />
                         </div>
-                        <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                        <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7" data-aos="fade-left">
                             <h2 className='title'>Seja um clienta da Marketing Digital</h2>
 
                             <p>
@@ -204,10 +216,10 @@ export function Home() {
 
             <div className='contact'>
                 <div className='container'>
-                    <h1 className='title'>Entra em contacto</h1>
-                    <p>ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus</p>
+                    <h1 className='title' data-aos="fade-in">Entra em contacto</h1>
+                    <p data-aos="fade-in">ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus</p>
                     
-                    <div className='info'>
+                    <div className='info' data-aos="fade-right">
                         <div className='row justify-content-center align-center'>
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                                 <div className='info-item'>
@@ -228,7 +240,7 @@ export function Home() {
                     
                     <div className='row justify-content-center'>
                         <div className="col-xs-12 col-sm-10 col-md-12 col-lg-10">
-                            <form>
+                            <form data-aos="fade-up">
                                 <div className="form-group row">
                                     <div className="col-sm-6">
                                         <label htmlFor="name">Nome: </label>
@@ -251,7 +263,7 @@ export function Home() {
                                 </div>                                    
 
                                 <div className="form-group row mt-5">
-                                        <button type="submit" className="btn btn-send col-12">Enviar</button>
+                                        <button type="submit" className="btn btn-send col-12" data-aos="fade-up">Enviar</button>
                                 </div>
                             </form>
                         </div>          
@@ -259,7 +271,7 @@ export function Home() {
                 </div>
             </div>
 
-            <footer>
+            <footer data-aos="fade-up">
                 <div className="footer-wrappper footer-bg">
                     <div className="footer-area">
                         <div className="container">
