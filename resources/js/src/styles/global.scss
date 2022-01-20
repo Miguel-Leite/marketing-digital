@@ -53,3 +53,18 @@ p {
         border-radius: 3px;
     }
 }
+
+.icon-danger {
+    background-color: rgba(255, 50, 50, 0.288);
+    color: rgba(255, 50, 50, 0.76);
+}
+
+.icon-success {
+    background-color: rgba(50, 255, 170, 0.411);
+    color: rgba(24, 204, 129, 0.76);
+}
+
+.icon-info {
+    background-color: rgba(50, 146, 255, 0.253);
+    color: rgba(50, 146, 255, 0.76);
+}
