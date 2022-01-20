@@ -1,6 +1,13 @@
-import {IoMegaphoneSharp, IoStatsChart, IoEarth} from 'react-icons/io5'
+import {
+    IoMegaphoneSharp, 
+    IoStatsChart, 
+    IoEarth,
+    IoCheckmarkCircleOutline
+} from 'react-icons/io5'
+
 import {NavLink} from 'react-router-dom';
 import AboutUs from '../assets/about.jpg'
+import Client from '../assets/client.jpg'
 import '../styles/page.scss';
 
 export function Home() {
@@ -143,6 +150,48 @@ export function Home() {
                             </div>    
                         </div>
                         
+                    </div>
+                </div>
+            </div>
+
+            <div className='client'>
+                <div className='container'>
+                    <div className='row'>
+                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <img src={Client} class="img-responsive w-100" alt="Client" />
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                            <h2 className='title'>Seja um clienta da Marketing Digital</h2>
+
+                            <p>
+                            Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. 
+                            Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
+                            Risus 
+                            </p>
+                            <div className='container mt-5'>
+                                <div className='item'>
+                                    <IoCheckmarkCircleOutline />
+                                    <p>
+                                    ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
+                                    Risus 
+                                    </p>
+                                </div>
+                                <div className='item'>
+                                    <IoCheckmarkCircleOutline />
+                                    <p>
+                                    ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
+                                    Risus 
+                                    </p>
+                                </div>
+                                <div className='item'>
+                                    <IoCheckmarkCircleOutline />
+                                    <p>
+                                    ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. 
+                                    Risus 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
