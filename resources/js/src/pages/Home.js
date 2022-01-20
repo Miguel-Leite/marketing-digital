@@ -1,8 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+
+import axios from 'axios';
 
 import AOS from 'aos'
 
 import 'aos/dist/aos.css'
+import 'react-toastify/dist/ReactToastify.css'
 
 import {
     IoMegaphoneSharp, 
@@ -22,12 +25,41 @@ import AboutUs from '../assets/about.jpg'
 import Client from '../assets/client.jpg'
 
 import '../styles/page.scss';
+import { toast } from 'react-toastify';
 
+toast.configure()
 export function Home() {
    
     useEffect(()=>{
-        AOS.init({ duration: 2000 })
+        AOS.init({ duration: 1500 })
     },[])
+
+    const [name,setName] = useState('')
+    const [email,setEmail] = useState('')
+    const [subject,setSubject] = useState('')
+    const [message,setMessage] = useState('')
+
+    async function handleSubmit(e) {
+        e.preventDefault()
+        const res = await axios.post('http://127.0.0.1:8000/store',{
+            name: name,
+            email: email,
+            subject: subject,
+            message: message
+        })
+
+        if (res.status === 200) {
+            if(res.data.status === 200) {
+                setName('')
+                setEmail('')
+                setSubject('')
+                setMessage('')
+                toast.success("mensagem enviada!",{position: toast.POSITION.BOTTOM_RIGHT})
+            } else {
+                toast.error("Ops! Não foi possivel enviar a mensagem",{position: toast.POSITION.BOTTOM_RIGHT})
+            }
+        }
+    }
 
     return (
         <div>
@@ -240,26 +272,27 @@ export function Home() {
                     
                     <div className='row justify-content-center'>
                         <div className="col-xs-12 col-sm-10 col-md-12 col-lg-10">
-                            <form data-aos="fade-up">
-                                <div className="form-group row">
+                            <form onSubmit={handleSubmit} method="POST">
+                                <div className="form-group row" data-aos="fade-up">
                                     <div className="col-sm-6">
                                         <label htmlFor="name">Nome: </label>
-                                        <input type="text" className="form-control" name="name" id="name" placeholder="Informe o seu nome completo" />
+                                        <input type="text" className="form-control" value={name} name="name" id="name" onChange={(e)=> setName(e.target.value)} placeholder="Informe o seu nome completo" required/>
                                     </div>
                                     <div className="col-sm-6">
                                         <label htmlFor="email">email: </label>
-                                        <input type="email" className="form-control" name="email" id="email" placeholder="Informe o seu email" />
+                                        <input type="email" className="form-control" value={email} name="email" id="email" onChange={(e)=> setEmail(e.target.value)} placeholder="Informe o seu email" required/>
                                     </div>
                                 </div>
 
-                                <div className="form-group">
+                                <div className="form-group" data-aos="fade-up">
                                     <label htmlFor="subject">Assunto: </label>
-                                    <input type="text" className="form-control" name="subject" id="subject" placeholder="Informe o assunto" />
+                                    <input type="text" className="form-control" value={subject} name="subject" id="subject" onChange={(e)=> setSubject(e.target.value)} placeholder="Informe o assunto" required />
                                 </div>
 
-                                <div className="form-group">
+                                <div className="form-group" data-aos="fade-up">
                                     <label htmlFor="message">Mensagem: </label>
-                                    <textarea name="message" id="message" className="form-control" placeholder='Escreve aqui a sua mensagem...' rows="5" required="required"></textarea>
+                                    <textarea name="message" id="message" className="form-control" onChange={(e)=> setMessage(e.target.value)} placeholder='Escreve aqui a sua mensagem...' rows="5" required="required">
+                                    </textarea>
                                 </div>                                    
 
                                 <div className="form-group row mt-5">
@@ -271,12 +304,12 @@ export function Home() {
                 </div>
             </div>
 
-            <footer data-aos="fade-up">
+            <footer>
                 <div className="footer-wrappper footer-bg">
                     <div className="footer-area">
                         <div className="container">
                             <div className="row justify-content-between">
-                                <div className="col-xl-4 col-lg-5 col-md-4 col-sm-6">
+                                <div className="col-xl-4 col-lg-5 col-md-4 col-sm-6" data-aos="fade-up">
                                     <div className="single-footer-caption mb-50">
                                         <div className="single-footer-caption mb-30">
                                             
@@ -297,7 +330,7 @@ export function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-5" data-aos="fade-up">
                                     <div className="single-footer-caption mb-50">
                                         <div className="footer-tittle">
                                             <h4>Soluções</h4>
@@ -310,7 +343,7 @@ export function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                                <div className="col-xl-2 col-lg-4 col-md-4 col-sm-6" data-aos="fade-up">
                                     <div className="single-footer-caption mb-50">
                                         <div className="footer-tittle">
                                             <h4>Suporte</h4>
@@ -323,7 +356,7 @@ export function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6" data-aos="fade-up">
                                     <div className="single-footer-caption mb-50">
                                         <div className="footer-tittle">
                                             <h4>Empresas</h4>
@@ -340,7 +373,7 @@ export function Home() {
                         </div>
                     </div>
                     
-                    <div className="footer-bottom-area">
+                    <div className="footer-bottom-area" data-aos="fade-in">
                         <div className="container">
                             <div className="footer-border">
                                 <div className="row d-flex align-items-center">

@@ -27,6 +27,7 @@
         "aos": "^2.3.4",
         "node-sass": "^7.0.1",
         "react-icons": "^4.3.1",
-        "react-router-dom": "5"
+        "react-router-dom": "5",
+        "react-toastify": "^8.1.0"
     }
 }
