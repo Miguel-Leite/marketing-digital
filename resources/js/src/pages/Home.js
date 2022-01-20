@@ -33,6 +33,33 @@ export function Home() {
                     </div>
                 </div>
             </header>
+
+            <main className="box_header">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+                            <div className="box">
+                                <h4>Planos Gratis</h4>
+                                <p>
+                                The automated process all your website tasks. Discover 
+                                tools and techniques to engage effectively with vulnerable 
+                                children and young people...<NavLink to="/"> ler mais. </NavLink>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+                            <div className="box">
+                                <h4>Planos Pagos</h4>
+                                <p>
+                                The automated process all your website tasks. Discover 
+                                tools and techniques to engage effectively with vulnerable 
+                                children and young people...<NavLink to="/"> ler mais. </NavLink>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
     )
 }

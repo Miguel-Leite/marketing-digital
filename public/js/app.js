@@ -5380,8 +5380,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Home() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
       className: "header_page",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         "class": "container",
@@ -5434,7 +5434,42 @@ function Home() {
           })
         })]
       })
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("main", {
+      className: "box_header",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "container",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "row",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "col-lg-6 col-sm-6 col-md-6 col-xs-12",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "box",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
+                children: "Planos Gratis"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
+                children: ["The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people...", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.NavLink, {
+                  to: "/",
+                  children: " ler mais. "
+                })]
+              })]
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "col-lg-6 col-sm-6 col-md-6 col-xs-12",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "box",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
+                children: "Planos Pagos"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
+                children: ["The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people...", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.NavLink, {
+                  to: "/",
+                  children: " ler mais. "
+                })]
+              })]
+            })
+          })]
+        })
+      })
+    })]
   });
 }
 
@@ -10559,7 +10594,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_hero_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header_page {\n  width: 100%;\n  height: 100vh;\n  background: linear-gradient(rgba(255, 255, 255, 0.842) 60%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n.header_page .nav_page {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 100px;\n  border-bottom: 1px solid rgba(102, 0, 185, 0.247);\n}\n.header_page .nav_page .nav_brand {\n  font-size: 32px;\n  font-weight: bold;\n  color: #333333;\n}\n.header_page .nav_page .nav_brand span {\n  color: var(--primary);\n}\n.header_page .nav_page > ul {\n  list-style: none;\n  display: flex;\n  align-items: center;\n  gap: 50px;\n}\n.header_page .nav_page > ul a {\n  color: var(--text);\n  position: relative;\n  padding-bottom: 48px;\n}\n.header_page .nav_page > ul a::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 0%;\n  height: 3px;\n  background-color: var(--primary);\n  transition: width 0.3s;\n}\n.header_page .nav_page > ul a:hover::before {\n  width: 100%;\n}\n.header_page .content {\n  margin-top: 110px;\n  width: 100%;\n  height: auto;\n}\n.header_page .content h1 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.header_page .content p {\n  font-size: 16px;\n  margin-bottom: 30px;\n}\n.header_page .content a {\n  background-color: var(--success);\n  color: var(--white);\n  padding: 10px 30px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header_page {\n  width: 100%;\n  height: 100vh;\n  background: linear-gradient(rgba(255, 255, 255, 0.842) 70%, transparent), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n.header_page .nav_page {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 100px;\n  border-bottom: 1px solid rgba(102, 0, 185, 0.247);\n}\n.header_page .nav_page .nav_brand {\n  font-size: 32px;\n  font-weight: bold;\n  color: #333333;\n}\n.header_page .nav_page .nav_brand span {\n  color: var(--primary);\n}\n.header_page .nav_page > ul {\n  list-style: none;\n  display: flex;\n  align-items: center;\n  gap: 50px;\n}\n.header_page .nav_page > ul a {\n  color: var(--text);\n  position: relative;\n  padding-bottom: 48px;\n}\n.header_page .nav_page > ul a::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 0%;\n  height: 3px;\n  background-color: var(--primary);\n  transition: width 0.3s;\n}\n.header_page .nav_page > ul a:hover::before {\n  width: 100%;\n}\n.header_page .content {\n  margin-top: 110px;\n  width: 100%;\n  height: auto;\n}\n.header_page .content h1 {\n  margin-bottom: 30px;\n  font-weight: 700;\n}\n.header_page .content p {\n  font-size: 16px;\n  margin-bottom: 30px;\n}\n.header_page .content a {\n  background-color: var(--success);\n  color: var(--white);\n  padding: 10px 30px;\n  transition: filter 0.3s;\n}\n.header_page .content a:hover {\n  filter: brightness(0.8);\n}\n\n.box_header {\n  margin-top: -4%;\n  margin-bottom: 10%;\n  width: 100%;\n  height: auto;\n}\n.box_header .box {\n  width: 100%;\n  height: 100%;\n  background-color: var(--white);\n  padding: 25px 20px;\n  border-radius: 10px;\n  box-shadow: 0px 6px 18px rgba(112, 112, 112, 0.288);\n}\n.box_header .box h4 {\n  margin-bottom: 20px;\n  font-weight: 700;\n  color: var(--primary);\n  text-transform: uppercase;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
